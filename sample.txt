@@ -1,0 +1,5 @@
+Learning data structures and algorithms is fun!
+Practice makes perfect.
+Python is a versatile programming language.
+Always test your code for edge cases.
+Stay curious and keep coding!
