@@ -12,5 +12,5 @@ def next_greatest_letter(letters, target):
 
 
 letters = ['c', 'f', 'j']
-target = 'i'
+target = 'k'
 print(next_greatest_letter(letters, target))  # Output: 'c'
