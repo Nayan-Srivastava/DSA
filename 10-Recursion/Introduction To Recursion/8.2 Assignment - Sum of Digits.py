@@ -33,7 +33,10 @@ Your task is to implement the sum_of_digits function.
 
 def sum_of_digits(n):
     # Your code here
-    pass
+    n = abs(n)  # Handle negative numbers by taking absolute value
+    if n == 0:  # Base case
+        return 0
+    return (n % 10) + sum_of_digits(n // 10)  # Recursive case
 
 # Test cases
 def test_sum_of_digits():
