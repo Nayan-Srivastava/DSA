@@ -35,7 +35,9 @@ Your task is to implement the power function using recursion.
 
 def power(base: int, exponent: int) -> int:
     # Your code here
-    pass
+    if exponent == 0:  # Base case
+        return 1
+    return base * power(base, exponent - 1)  # Recursive case
 
 # Test cases
 def test_power():
@@ -48,5 +50,3 @@ def test_power():
 
 if __name__ == "__main__":
     test_power()
-
-# LeetCode link: https://leetcode.com/problems/powx-n/ (Note: The LeetCode problem is a more complex variation of this question)
